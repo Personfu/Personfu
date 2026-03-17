@@ -60,13 +60,11 @@
 
 <div align="center">
 
+![GitHub Streak](https://github-readme-activity-graph.vercel.app/graph?username=Personfu)
+
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Personfu&show_icons=true&theme=radical&hide_border=true&bg_color=000000&title_color=9D4EDD&icon_color=FF00FF&text_color=ffffff&border_radius=10&ring_color=00d4ff)
 
-![GitHub Streak](https://github-readme-streak-stats.demolab.com/?user=Personfu&theme=radical&hide_border=true&background=000000&ring=FF00FF&fire=9D4EDD&currStreakLabel=00d4ff&sideLabels=00ff41)
-
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Personfu&layout=compact&theme=radical&hide_border=true&bg_color=000000&title_color=9D4EDD&text_color=ffffff&border_radius=10)
-
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=Personfu&theme=radical&no-frame=true&column=7&margin-w=15&margin-h=15&title_color=FF00FF&text_color=00d4ff)
 
 </div>
 
