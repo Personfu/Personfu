@@ -16,12 +16,9 @@
 
 ### 🎮 **CyberWorld MMORPG — PLAY NOW**
 
-[![CyberWorld](https://img.shields.io/badge/🎮_PLAY-CyberWorld_MMORPG-00e8ff?style=for-the-badge&labelColor=050a0f)](https://personfu.github.io/cyberworld.html)
-[![CyberOS](https://img.shields.io/badge/💻_CyberOS-v2026.3--FLLC-00ff41?style=for-the-badge&labelColor=050a0f)](https://personfu.github.io/cyberos-iso.html)
+[![CyberWorld](https://img.shields.io/badge/🎮_PLAY-CyberWorld_MMORPG-00e8ff?style=for-the-badge&labelColor=050a0f)](https://personfu.github.io/)
 
 > **CyberWorld** is a unified cybersecurity MMORPG. The FLLC project for immersive threat simulation and OSINT discovery.
->
-> `16 Adversaries` · `6 Factions (Bear/Spider/Chollima/Panda/Kitten/Jackal)` · `8 Daemons w/ Evolution` · `Battle System` · `Cyber Deck` · `8 Tools`
 
 ---
 
