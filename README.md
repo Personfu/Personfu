@@ -79,31 +79,14 @@
 
 ---
 
-## 🎯 **Projects & Showcase**
 
-### 🔵 **Blue Team Projects**
-
-| Project | Description | Status |
-|---------|-------------|--------|
-| **SOC Operations** | Enterprise Security Operations Center | 🟢 Active |
-| **Threat Detection** | Real-time threat monitoring & response | 🟢 Active |
-| **Incident Response** | Automated incident response systems | 🟢 Active |
-
-### 🔴 **Red Team Projects**
-
-| Project | Description | Status |
-|---------|-------------|--------|
-| **Penetration Testing** | Ethical hacking & vulnerability assessment | 🟢 Active |
-| **OSINT Platform** | Open Source Intelligence gathering | 🟢 Active |
-| **Exploit Research** | Security research & exploit analysis | 🟢 Active |
-
-### 🌐 **OSINT Tools & Platforms**
+### 🌐 **Tools & Platforms**
 
 | Tool | Purpose | Link |
 |------|---------|------|
-| **FLLC.NET** | OSINT Intelligence Platform | [fllc.net](https://fllc.net) |
-| **Threat Intel Dashboard** | Real-time threat intelligence | Active |
-| **OSINT Hub** | Centralized OSINT resources | Active |
+| **FLLC.NET** | Intelligence Platform | [fllc.net](https://fllc.net) |
+| **Threat Intel Dashboard** | Real-time threat intelligence | [https://personfu.github.io/GovINT] |
+| **OSINT Hub** | Centralized OSINT resources | [https://personfu.github.io] |
 
 ---
 
