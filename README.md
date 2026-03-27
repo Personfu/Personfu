@@ -220,10 +220,4 @@
 <p align="center">
 <b>Play chess directly through GitHub actions.</b>
 </p>
-
-<!-- CHESS BOARD -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Personfu/readme-chess/main/chess_board.svg" width="400px">
-</p>
-
 </details>
