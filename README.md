@@ -185,15 +185,15 @@
 
 
 
-## 📊 **Coding Stats**
+## 📊 **GitHub Stats**
 
 <div align="center">
+  
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Personfu)
 
-![GitHub Streak](https://github-readme-activity-graph.vercel.app/graph?username=Personfu)
+![GitHub Stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Personfu&show_icons=true&theme=radical&hide_border=true)
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Personfu&show_icons=true&theme=radical&hide_border=true&bg_color=000000&title_color=9D4EDD&icon_color=FF00FF&text_color=ffffff&border_radius=10&ring_color=00d4ff)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Personfu&layout=compact&theme=radical&hide_border=true&bg_color=000000&title_color=9D4EDD&text_color=ffffff&border_radius=10)
+![Top Languages](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Personfu&layout=compact&theme=radical&hide_border=true)
 
 </div>
 
