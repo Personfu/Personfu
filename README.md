@@ -170,7 +170,6 @@
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=000000)](https://Personfu/github.io)
 [![Website](https://img.shields.io/badge/Website-fllc.net-FF00FF?style=for-the-badge&logo=About.me&logoColor=FF00FF&labelColor=000000)](https://fllc.net)
 [![Email](https://img.shields.io/badge/Email-support@fllc.net-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000)](mailto:support@fllc.net)
 
