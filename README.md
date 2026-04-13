@@ -191,9 +191,6 @@
   
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Personfu)
 
-![GitHub Stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Personfu&show_icons=true&theme=radical&hide_border=true)
-
-![Top Languages](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Personfu&layout=compact&theme=radical&hide_border=true)
 
 </div>
 
