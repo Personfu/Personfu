@@ -71,7 +71,12 @@
 ║ Penetration Testing | SOC Operations |  ║ 
 ║ Threat Detection | Incident Response |  ║ 
 ║ CyberEngineering | Development |        ║
+╠═════════════════════════════════════════╣
+║ DEVELOPMENT:                            ║
+║ CyberWorld Operations | FLLC.net |      ║
+║ Custom Pentesting Software and Hardware ║
 ╚═════════════════════════════════════════╝
+  
 </pre>
 
 </td>
@@ -112,7 +117,7 @@
 <a href="https://github.com/">
 <img src="https://img.shields.io/badge/FLLC-Open_Sources-8A2BE2?style=for-the-badge&labelColor=050816&logo=opensourceinitiative&logoColor=ff00ff">
 </a>
-<br><sub>Independent education and build ecosystem</sub>
+<br><sub>Independent enterprise and education operation</sub>
 </td>
 </tr>
 </table>
@@ -205,14 +210,3 @@
 </picture>
 
 </div>
-
-
-
-
-<details align="center">
-<summary><h3>♟ Live Chess Board</h3></summary>
-
-<p align="center">
-<b>Play chess directly through GitHub actions.</b>
-</p>
-</details>
