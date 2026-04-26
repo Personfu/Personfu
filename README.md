@@ -60,7 +60,7 @@
 ╔═════════════════════════════════════════╗
 ║ LANGUAGES:                              ║
 ║ Python | JavaScript | TypeScript |      ║ 
-║ Go | Bash | HTML5 | CSS3+ |             ║
+║ Go | Bash | HTML5 | CSS3+ | C++ |       ║
 ╠═════════════════════════════════════════╣
 ║ TOOLS & PLATFORMS:                      ║
 ║ Kali Linux | Wireshark | Metasploit |   ║ 
