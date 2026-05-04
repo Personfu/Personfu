@@ -44,10 +44,6 @@
 ║            3+ Years Enterprise SOC Ops                   ║
 ║            Threat Detection & Response                   ║
 ║ STATUS: [ ACTIVE / OPERATIONAL / MISSION-READY ]         ║
-║ SKILLS: Penetration Testing | SOC Operations             ║
-║         Threat Detection                                 ║
-║         Incident Response | CyberEngineering             ║
-║         Development                                      ║
 ║ LOCATION: USA                                            ║
 ║ LAST_UPDATE: 2026                                        ║
 ╚══════════════════════════════════════════════════════════╝
