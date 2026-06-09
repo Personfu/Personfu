@@ -1,6 +1,6 @@
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&duration=2600&pause=700&color=00EAFF&center=true&vCenter=true&multiline=true&repeat=true&width=1000&height=120&lines=PERSON+F;FLLC+%7C+NASA+ASCEND" />
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=24&pause=1000&center=true&vCenter=true&width=900&lines=Software+Engineer+%2B+Full-Stack+Developer;Systems+Administrator+%7C+Homelab+Operator;Cybersecurity+%7C+SOC+Operations;Embedded+%2F+Near-Space+Telemetry;CyberWorld+%7C+2026" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=24&pause=1000&center=true&vCenter=true&width=900&lines=Cyber+Engineer+%7C+Offensive+%2B+Defensive;Penetration+Testing+%7C+Red+Team+%7C+SOC;Software+Engineer+%2B+Full-Stack+Developer;Systems+Administrator+%7C+Homelab+Operator;Embedded+%2F+Near-Space+Telemetry;CyberWorld+%7C+2026" />
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,30,50,255&height=3&section=footer" width="100%" />
 </p>
 
@@ -62,7 +62,7 @@ towers fire on the nearest waypoint, and a live HUD tracks waves and base health
 <pre>
 ╔══════════════════════════════════════════════════════════╗
 ║ OPERATOR: PERSON F                                       ║
-║ Software Engineer · Systems Admin · Cyber Operator       ║
+║ Cyber Engineer · Software Engineer · Systems Admin       ║
 ╠══════════════════════════════════════════════════════════╣
 ║ FIELD:  NASA ASCEND (near-space telemetry)              ║
 ║         Enterprise SOC (100k+ endpoints)                ║
@@ -216,6 +216,89 @@ simulation, OSINT discovery, and education.
 <img src="https://img.shields.io/badge/BS-Information%20Technology-ff00ff?style=for-the-badge&logo=academia&logoColor=white&labelColor=050816" />
 <img src="https://img.shields.io/badge/AS-Cybersecurity-39ff14?style=for-the-badge&logo=academia&logoColor=white&labelColor=050816" />
 </p>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,30,50,255&height=3&section=footer" width="100%" />
+
+## 🛡️ Cyber Engineer — Offensive **+** Defensive
+
+> Open to **any and all cyber roles** — red team and blue team. I break things to
+> understand them and defend them. Both sides of the same coin.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**🔴 Offensive / Pentest**
+- Penetration testing & vulnerability assessment
+- Recon & OSINT, web/app exploitation, privilege escalation
+- Toolchain: Kali, Metasploit, Burp Suite, Nmap, sqlmap, ffuf, hashcat, SecLists
+- CTFs, bug bounties, and a curated arsenal of red-team tooling (see [repos](https://github.com/Personfu?tab=repositories))
+
+</td>
+<td width="50%" valign="top">
+
+**🔵 Defensive / SOC**
+- Enterprise SOC operations across 100k+ endpoints
+- CrowdStrike, Tanium, Splunk/SIEM, IAM, Cloudflare
+- Threat detection & response, incident analysis, NIST/CIS-aligned monitoring
+- Asset visibility, vuln management, compliance documentation
+
+</td>
+</tr>
+</table>
+
+<p align="center">
+<img src="https://img.shields.io/badge/Red_Team-Offensive_Security-ff3333?style=for-the-badge&logo=hackthebox&logoColor=white&labelColor=050816" />
+<img src="https://img.shields.io/badge/Blue_Team-Defensive_SOC-00aaff?style=for-the-badge&logo=cylance&logoColor=white&labelColor=050816" />
+<img src="https://img.shields.io/badge/Purple_Team-Detection_Eng-8b5cf6?style=for-the-badge&logo=spectrum&logoColor=white&labelColor=050816" />
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,30,50,255&height=3&section=footer" width="100%" />
+
+## 📌 Featured Repositories
+
+<table>
+<tr>
+<td valign="top" width="33%">
+
+[**🌐 personfu.github.io**](https://github.com/Personfu/personfu.github.io)<br>
+CyberWorld game hub — the live FLLC front end.
+
+</td>
+<td valign="top" width="33%">
+
+[**🛰️ GovINT**](https://github.com/Personfu/GovINT)<br>
+Public-intel dashboard on foreign-government infrastructure.
+
+</td>
+<td valign="top" width="33%">
+
+[**🎮 CyberWorld**](https://github.com/Personfu/CyberWorld)<br>
+Cybersecurity MMORPG for immersive threat simulation.
+
+</td>
+</tr>
+<tr>
+<td valign="top" width="33%">
+
+[**🔭 FURY0s1nt**](https://github.com/Personfu/FURY0s1nt)<br>
+Python OSINT tooling for recon and discovery.
+
+</td>
+<td valign="top" width="33%">
+
+[**🚀 NASA-ASCEND-T-MATS**](https://github.com/Personfu/NASA-ASCEND-T-MATS)<br>
+Turbine/telemetry modeling for high-altitude missions.
+
+</td>
+<td valign="top" width="33%">
+
+[**🕹️ Personfu**](https://github.com/Personfu/Personfu)<br>
+This repo — a tested Python arcade + animated SVG game engine.
+
+</td>
+</tr>
+</table>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,30,50,255&height=3&section=footer" width="100%" />
 
