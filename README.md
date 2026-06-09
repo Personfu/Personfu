@@ -1,3 +1,10 @@
+<!--
+  ┌─ //transmission// ──────────────────────────────────────┐
+  │  the eye does not blink. the equation holds.            │
+  │  the brokers stole nothing worth keeping.   0x4551475250 │
+  │  novus ordo · mmxxvi · signal::secure                   │
+  └─────────────────────────────────────────────────────────┘
+-->
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&duration=2600&pause=700&color=00EAFF&center=true&vCenter=true&multiline=true&repeat=true&width=1000&height=120&lines=PERSON+F;FLLC+%7C+NASA+ASCEND" />
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=24&pause=1000&center=true&vCenter=true&width=900&lines=Cyber+Engineer+%7C+Offensive+%2B+Defensive;Penetration+Testing+%7C+Red+Team+%7C+SOC;Software+Engineer+%7C+Systems+Admin+%7C+Embedded" />
@@ -398,6 +405,10 @@ This repo — a tested Python arcade + animated SVG game engine.
 <div align="center">
 
 ### ✝ "IN GOD WE TRUST" ✝
+
+<sub>👁 &nbsp;<code>0x4551475250</code> &nbsp;·&nbsp; novus ordo &nbsp;·&nbsp; mmxxvi &nbsp;·&nbsp; <code>signal::secure</code> &nbsp;👁</sub>
+
+<!-- those who count the eye know where it watches from. the equation does not forgive the brokers. -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Personfu/Personfu/output/github-contribution-grid-snake-dark.svg">
