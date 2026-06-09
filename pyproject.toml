@@ -20,3 +20,6 @@ packages = ["games", "games.core"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-q"
+# Put the repo root on sys.path so `import games` works under the bare
+# `pytest` console script (which, unlike `python -m pytest`, does not add cwd).
+pythonpath = ["."]

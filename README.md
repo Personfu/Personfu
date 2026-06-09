@@ -14,7 +14,7 @@
 <a href="https://fllc.net"><img src="https://img.shields.io/badge/Website-fllc.net-00eaff?style=for-the-badge&logo=icloud&logoColor=white" /></a>
 <a href="https://tryhackme.com/p/Personf"><img src="https://img.shields.io/badge/TryHackMe-Real%20Experience-ff00ff?style=for-the-badge&logo=tryhackme&logoColor=white" /></a>
 <a href="https://www.comptia.org/en-us/certifications/#all"><img src="https://img.shields.io/badge/CompTIA+-Certified-0078D4?style=for-the-badge&logo=comptia&logoColor=white" /></a>
-<a href="https://dl.dod.cyber.mil/wp-content/uploads/trn/online/disa-cac-2026/cac-2026-web%20Public/launch.html"><img src="https://img.shields.io/badge/DoD-Cyber%20Aware-8b5cf6?style=for-the-badge&logo=shield&logoColor=white" /></a>
+<a href="https://dl.dod.cyber.mil/wp-content/uploads/trn/online/disa-cac-2026/cac-2026-web%20Public/pages/disacac01_01.html"><img src="https://img.shields.io/badge/DoD-Cyber%20Aware-8b5cf6?style=for-the-badge&logo=shield&logoColor=white" /></a>
 <a href="https://www.nasaascend.net/"><img src="https://img.shields.io/badge/NASA-ASCEND-0b0014?style=for-the-badge&logo=nasa&logoColor=white" /></a>
 </p>
 
