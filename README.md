@@ -1,6 +1,6 @@
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&duration=2600&pause=700&color=00EAFF&center=true&vCenter=true&multiline=true&repeat=true&width=1000&height=120&lines=PERSON+F;FLLC+%7C+NASA+ASCEND" />
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=24&pause=1000&center=true&vCenter=true&width=900&lines=Full-Stack+Developer+%2B+Engineer;Cybersecurity+%7C+SOC+Operations;Embedded+%2F+Near-Space+Telemetry;CyberWorld+%7C+2026" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=24&pause=1000&center=true&vCenter=true&width=900&lines=Software+Engineer+%2B+Full-Stack+Developer;Systems+Administrator+%7C+Homelab+Operator;Cybersecurity+%7C+SOC+Operations;Embedded+%2F+Near-Space+Telemetry;CyberWorld+%7C+2026" />
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,30,50,255&height=3&section=footer" width="100%" />
 </p>
 
@@ -62,7 +62,7 @@ towers fire on the nearest waypoint, and a live HUD tracks waves and base health
 <pre>
 ╔══════════════════════════════════════════════════════════╗
 ║ OPERATOR: PERSON F                                       ║
-║ Full-Stack Developer · Engineer · Cyber Operator         ║
+║ Software Engineer · Systems Admin · Cyber Operator       ║
 ╠══════════════════════════════════════════════════════════╣
 ║ FIELD:  NASA ASCEND (near-space telemetry)              ║
 ║         Enterprise SOC (100k+ endpoints)                ║
@@ -151,6 +151,49 @@ not scripts that happen to run.
 <a href="https://fllc.net"><img src="https://img.shields.io/badge/FLLC.NET-Platform-00eaff?style=for-the-badge&logo=icloud&logoColor=00eaff&labelColor=050816" /></a>
 <a href="https://personfu.github.io/GovINT"><img src="https://img.shields.io/badge/GovINT-Live_Dashboard-ff00ff?style=for-the-badge&logo=databricks&logoColor=ff00ff&labelColor=050816" /></a>
 <a href="https://personfu.github.io"><img src="https://img.shields.io/badge/CyberWorld-Game_Hub-8b5cf6?style=for-the-badge&logo=hackthebox&logoColor=8b5cf6&labelColor=050816" /></a>
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,30,50,255&height=3&section=footer" width="100%" />
+
+## 🖥️ Systems Administration & Homelab — A Decade, Self-Taught
+
+> Before the certs and the SOC, there were ten years of *actually running the
+> infrastructure*. Game servers, community forums, Discord bots, web services —
+> built, hosted, broken, and fixed at 2 a.m. by me. That's where the instincts
+> come from.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**What I ran**
+- Linux & Windows servers for **game communities, forums, and web services** — provisioned, hardened, and kept online for years.
+- Self-hosted stacks behind **nginx reverse proxies, DNS, and Cloudflare**, with TLS, firewalls, and DDoS mitigation.
+- **Databases** (MySQL/MariaDB) for forums, stats, and bots — backups, restores, and migrations included.
+- **Containers & virtualization** (Docker / VMs) and a home lab built from bare metal up.
+
+</td>
+<td width="50%" valign="top">
+
+**What it taught me (the engineering)**
+- Wrote **mods, plugins, and bots** — real software shipped to real users who complained when it broke.
+- **Automation & scripting** in Bash/Python: deployments, backups, monitoring, cron, log triage.
+- **Networking from the ground up** — NAT, port forwarding, VPNs, subnets, and uptime under load.
+- **User & community ops at scale**: permissions, moderation tooling, incident response before I knew the term.
+
+</td>
+</tr>
+</table>
+
+<p align="center">
+<img src="https://img.shields.io/badge/Linux-Admin-FCC624?style=for-the-badge&logo=linux&logoColor=black&labelColor=050816" />
+<img src="https://img.shields.io/badge/Windows_Server-Admin-0078D6?style=for-the-badge&logo=windows&logoColor=white&labelColor=050816" />
+<img src="https://img.shields.io/badge/Docker-Containers-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=050816" />
+<img src="https://img.shields.io/badge/nginx-Reverse_Proxy-009639?style=for-the-badge&logo=nginx&logoColor=white&labelColor=050816" />
+<img src="https://img.shields.io/badge/MySQL-MariaDB-4479A1?style=for-the-badge&logo=mysql&logoColor=white&labelColor=050816" />
+<img src="https://img.shields.io/badge/Bash-Automation-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white&labelColor=050816" />
+<img src="https://img.shields.io/badge/Cloudflare-DNS%2FCDN-F38020?style=for-the-badge&logo=cloudflare&logoColor=white&labelColor=050816" />
+<img src="https://img.shields.io/badge/Networking-VPN%2FNAT%2FFirewall-8b5cf6?style=for-the-badge&logo=wireshark&logoColor=white&labelColor=050816" />
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,30,50,255&height=3&section=footer" width="100%" />
