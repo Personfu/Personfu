@@ -43,11 +43,12 @@ python3 -m games          # launches the arcade
 | 🛰️ **THREAT HUNT** | sweep a subnet for planted APT implants | `space` scan · `f` flag · `q` quit | [`games/minesweeper.py`](games/minesweeper.py) |
 
 Zero dependencies — Python standard library only. Each game splits a pure,
-unit-tested engine from a thin curses front-end. **25 tests**, run with `pytest`.
+unit-tested engine from a thin curses front-end. **31 tests**, run with `pytest`.
 → [arcade details](games/README.md)
 
 **Don't want to clone?** Scroll down and play **THREAT HUNT right in your browser** ⬇️ —
-one click per move, no install.
+one click per move, no install. Contain the threat and your handle joins the
+🏆 hall of fame on this profile.
 
 ### 🛰️ ...and a tower defense that runs in your README
 
@@ -65,7 +66,7 @@ on the nearest waypoint, HUD tracks the waves.
 
 ### 🛰️ THREAT HUNT — Play in Your Browser
 
-> Click a host to **scan** it. Numbers count adjacent compromised hosts. Find every clean host without detonating an implant. No clone, no install — every click opens an issue a bot plays for you.
+> Click a host to **scan** it. Numbers count adjacent compromised hosts. Find every clean host without detonating an implant. No clone, no install — every click opens an issue a bot plays for you, and your handle goes on the board.
 
 🟡 **HUNTING** — implants suspected: `6` · hosts scanned: `0`
 

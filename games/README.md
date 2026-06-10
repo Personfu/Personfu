@@ -17,7 +17,9 @@ python3 -m games          # opens the launcher
 
 The same hunt is playable **directly from the profile README** — no clone. Each
 click opens a pre-filled GitHub issue; an Actions workflow plays the move,
-redraws the board, and closes the issue.
+redraws the board, and closes the issue. Every move is credited to the player's
+GitHub handle, and whoever contains the threat lands in the board's 🏆 hall of
+fame.
 
 - engine: [`web/engine.py`](web/engine.py) — fully serializable (state round-trips
   through JSON, since every move runs in its own Actions job)

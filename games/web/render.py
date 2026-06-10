@@ -61,7 +61,8 @@ def status_line(game: ThreatHunt) -> str:
     )
 
 
-def render_block(game: ThreatHunt, owner: str, repo: str) -> str:
+def render_block(game: ThreatHunt, owner: str, repo: str,
+                 last_move: str = "", champions=()) -> str:
     header = "| · | " + " | ".join(COLS[: game.width]) + " |"
     divider = "|---|" + "---|" * game.width
     rows = [header, divider]
@@ -69,6 +70,10 @@ def render_block(game: ThreatHunt, owner: str, repo: str) -> str:
         cells = [_cell_md(game, x, y, owner, repo) for x in range(game.width)]
         rows.append(f"| **{y + 1}** | " + " | ".join(cells) + " |")
     board = "\n".join(rows)
+
+    status = status_line(game)
+    if last_move:
+        status += f" &nbsp;·&nbsp; last op: {last_move}"
 
     new_url = issue_url(owner, repo, "new")
     lines = [
@@ -78,9 +83,10 @@ def render_block(game: ThreatHunt, owner: str, repo: str) -> str:
         "",
         "> Click a host to **scan** it. Numbers count adjacent compromised hosts. "
         "Find every clean host without detonating an implant. "
-        "No clone, no install — every click opens an issue a bot plays for you.",
+        "No clone, no install — every click opens an issue a bot plays for you, "
+        "and your handle goes on the board.",
         "",
-        status_line(game),
+        status,
         "",
         board,
         "",
@@ -89,9 +95,11 @@ def render_block(game: ThreatHunt, owner: str, repo: str) -> str:
         "",
         f"<sub>🟦 host &nbsp; ⬜ clean &nbsp; 1️⃣–8️⃣ adjacent implants &nbsp; "
         f"🚩 flagged &nbsp; ☣️ implant &nbsp; 💥 detonated</sub>",
-        "",
-        END,
     ]
+    if champions:
+        roll = " · ".join(f"[@{c}](https://github.com/{c})" for c in champions)
+        lines += ["", f"🏆 **HUNTERS WHO CONTAINED THE THREAT:** {roll}"]
+    lines += ["", END]
     return "\n".join(lines)
 
 

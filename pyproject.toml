@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "personfu-arcade"
-version = "1.0.0"
+version = "1.1.0"
 description = "Dependency-free terminal games with cleanly separated, unit-tested engines."
 readme = "games/README.md"
 requires-python = ">=3.9"

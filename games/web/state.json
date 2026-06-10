@@ -1,11 +1,15 @@
 {
-  "width": 6,
-  "height": 6,
-  "implant_count": 6,
-  "implants": [],
-  "scanned": [],
-  "flagged": [],
-  "status": "HUNTING",
-  "deployed": false,
-  "seed": 1950120998
+  "game": {
+    "width": 6,
+    "height": 6,
+    "implant_count": 6,
+    "implants": [],
+    "scanned": [],
+    "flagged": [],
+    "status": "HUNTING",
+    "deployed": false,
+    "seed": 1950120998
+  },
+  "champions": [],
+  "last_move": ""
 }

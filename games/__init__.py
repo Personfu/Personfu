@@ -9,7 +9,7 @@ from . import minesweeper, snake
 from .minesweeper import Minesweeper, State
 from .snake import Direction, SnakeGame
 
-__version__ = "1.0.0"
+__version__ = "1.1.0"
 
 GAMES = {
     "snake": ("NET WORM   (self-propagating worm)", snake.play),

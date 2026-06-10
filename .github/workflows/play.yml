@@ -32,6 +32,8 @@ jobs:
           # Untrusted issue title — passed as an env var, never inlined into the
           # shell. play.py validates it with a strict regex.
           ISSUE_TITLE: ${{ github.event.issue.title }}
+          # Player attribution; play.py only accepts valid GitHub logins.
+          ISSUE_AUTHOR: ${{ github.event.issue.user.login }}
         run: python -m games.web.play apply "$ISSUE_TITLE"
 
       - name: Commit the new board
