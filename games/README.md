@@ -1,34 +1,39 @@
-# 🎮 Personfu Arcade
+# 🕹️ CYBER OPS ARCADE
 
-A small collection of **actually playable**, dependency-free terminal games.
-No `pip install` required — they run on the Python standard library (`curses`)
-that ships with every Unix/macOS Python, and on Windows with `windows-curses`.
+Dependency-free games themed around threat actors and security operations.
+No `pip install` — they run on the Python standard library (`curses`), and on
+Windows with `windows-curses`.
 
 ```bash
-# clone, then from the repo root:
-python3 -m games          # opens the launcher menu
+python3 -m games          # opens the launcher
 ```
 
-| Game | Controls |
-|------|----------|
-| 🐍 **Snake** | Arrow keys / `WASD` to steer · `q` to quit |
-| 💣 **Minesweeper** | Move with arrows/`WASD` · `space` reveal · `f` flag · `q` quit |
+| Game | Theme | Controls |
+|------|-------|----------|
+| 🪱 **NET WORM** | a self-propagating worm crawling the subnet, consuming vulnerable nodes | arrows / `WASD` · `q` quit |
+| 🛰️ **THREAT HUNT** | sweep a subnet for planted APT implants without detonating one | arrows/`WASD` move · `space` scan · `f` flag · `q` quit |
+
+## 🌐 Play THREAT HUNT in the browser
+
+The same hunt is playable **directly from the profile README** — no clone. Each
+click opens a pre-filled GitHub issue; an Actions workflow plays the move,
+redraws the board, and closes the issue.
+
+- engine: [`web/engine.py`](web/engine.py) — fully serializable (state round-trips
+  through JSON, since every move runs in its own Actions job)
+- board renderer: [`web/render.py`](web/render.py) — turns state into a clickable
+  markdown grid of issue links
+- controller: [`web/play.py`](web/play.py) — invoked by `.github/workflows/play.yml`
 
 ## Why it's built this way
 
-Each game is split into two layers:
-
-- **A pure rules engine** (`SnakeGame`, `Minesweeper`) — no I/O, no globals,
-  deterministic given an injected `random.Random`. This is where the logic lives:
-  collision detection, flood-fill reveals, first-click-safe mine placement,
-  win/loss derivation.
-- **A thin curses front-end** (`play`) that only renders state and forwards input.
-
-That separation is what makes the engines trivially testable:
+Every game splits a **pure rules engine** (no I/O, no globals, deterministic via
+an injected/seeded `random.Random`) from a thin front-end. That separation is
+what makes the logic testable:
 
 ```bash
 pip install pytest
-pytest            # 15 tests covering both engines, deterministic via seeded RNG
+pytest            # 25 tests across the terminal engines and the browser hunt
 ```
 
 ## Layout
@@ -36,13 +41,15 @@ pytest            # 15 tests covering both engines, deterministic via seeded RNG
 ```
 games/
 ├── __main__.py        # launcher menu (python3 -m games)
-├── snake.py           # SnakeGame engine + curses UI
-├── minesweeper.py     # Minesweeper engine + curses UI
-└── core/grid.py       # shared, side-effect-free grid helpers
+├── snake.py           # NET WORM engine + curses UI
+├── minesweeper.py     # THREAT HUNT engine + curses UI
+├── core/grid.py       # shared, side-effect-free grid helpers
+└── web/               # browser-playable THREAT HUNT (issue-driven)
+    ├── engine.py
+    ├── render.py
+    └── play.py
 tests/
 ├── test_snake.py
-└── test_minesweeper.py
+├── test_minesweeper.py
+└── test_threat_hunt.py
 ```
-
-Built as a demonstration of clean, testable Python — engine logic that would
-survive a code review, not just a script that happens to run.

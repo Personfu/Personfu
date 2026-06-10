@@ -160,7 +160,7 @@ def play(stdscr, *, tick_seconds: float = 0.12) -> Optional[int]:  # pragma: no 
         _render(stdscr, game)
         if not game.alive:
             stdscr.nodelay(False)
-            stdscr.addstr(0, 2, f" GAME OVER — score {game.score}.  press any key ")
+            stdscr.addstr(0, 2, f" CONTAINED — worm killed at {game.score} nodes.  press any key ")
             stdscr.getch()
             return game.score
 
@@ -170,7 +170,7 @@ def play(stdscr, *, tick_seconds: float = 0.12) -> Optional[int]:  # pragma: no 
 def _render(stdscr, game: SnakeGame) -> None:  # pragma: no cover
     stdscr.erase()
     stdscr.border()
-    title = f" SNAKE   score {game.score}   (arrows/WASD, q to quit) "
+    title = f" NET WORM // propagating   nodes {game.score}   (arrows/WASD, q to quit) "
     stdscr.addstr(0, 2, title)
     fx, fy = game.food
     stdscr.addstr(fy + 1, fx * 2 + 1, "*")

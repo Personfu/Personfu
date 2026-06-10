@@ -153,7 +153,7 @@ def play(stdscr) -> Optional[State]:  # pragma: no cover
 def _render(stdscr, game: Minesweeper, cx: int, cy: int) -> None:  # pragma: no cover
     stdscr.erase()
     stdscr.border()
-    stdscr.addstr(0, 2, f" MINESWEEPER   mines {game.mines_remaining}   (space reveal, f flag, q quit) ")
+    stdscr.addstr(0, 2, f" THREAT HUNT // implants {game.mines_remaining}   (space scan, f flag, q quit) ")
     for y in range(game.height):
         for x in range(game.width):
             g = game.glyph(x, y)

@@ -12,8 +12,8 @@ from .snake import Direction, SnakeGame
 __version__ = "1.0.0"
 
 GAMES = {
-    "snake": ("Snake", snake.play),
-    "minesweeper": ("Minesweeper", minesweeper.play),
+    "snake": ("NET WORM   (self-propagating worm)", snake.play),
+    "minesweeper": ("THREAT HUNT   (sweep the subnet)", minesweeper.play),
 }
 
 __all__ = [

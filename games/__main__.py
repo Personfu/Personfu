@@ -29,6 +29,7 @@ def _menu(stdscr, games: Dict[str, Tuple[str, Callable]]):  # pragma: no cover
         stdscr.erase()
         for i, line in enumerate(BANNER.strip("\n").splitlines()):
             stdscr.addstr(i + 1, 2, line)
+        stdscr.addstr(8, 2, "  CYBER OPS ARCADE // threat-actor simulations")
         stdscr.addstr(9, 2, f"  v{__version__} — arrow keys to choose, Enter to play, q to quit")
         for i, (_, (label, _fn)) in enumerate(items):
             prefix = " > " if i == idx else "   "

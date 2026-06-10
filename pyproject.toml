@@ -15,7 +15,7 @@ keywords = ["games", "terminal", "curses", "snake", "minesweeper"]
 personfu-arcade = "games.__main__:main"
 
 [tool.setuptools]
-packages = ["games", "games.core"]
+packages = ["games", "games.core", "games.web"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
