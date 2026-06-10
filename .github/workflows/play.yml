@@ -1,0 +1,63 @@
+name: threat-hunt
+
+# Anyone who opens an issue titled "ops: ..." plays a move. issues-triggered
+# workflows run automatically (unlike fork PRs), so visitors play with no clone
+# and no manual approval.
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+# Serialize moves so concurrent players don't clobber the board / each other.
+concurrency:
+  group: threat-hunt
+  cancel-in-progress: false
+
+jobs:
+  play:
+    if: startsWith(github.event.issue.title, 'ops:')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Apply the move
+        env:
+          # Untrusted issue title — passed as an env var, never inlined into the
+          # shell. play.py validates it with a strict regex.
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+        run: python -m games.web.play apply "$ISSUE_TITLE"
+
+      - name: Commit the new board
+        run: |
+          git config user.name "threat-hunt-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md games/web/state.json
+          if git diff --cached --quiet; then
+            echo "No board change."
+          else
+            git commit -m "threat-hunt: play ${{ github.event.issue.number }}"
+            git push
+          fi
+
+      - name: Reply and close the issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const path = 'games/web/last_move.md';
+            const body = fs.existsSync(path)
+              ? fs.readFileSync(path, 'utf8')
+              : 'Move processed.';
+            await github.rest.issues.createComment({
+              ...context.repo, issue_number: context.issue.number, body,
+            });
+            await github.rest.issues.update({
+              ...context.repo, issue_number: context.issue.number, state: 'closed',
+            });
