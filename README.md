@@ -84,9 +84,9 @@ python3 -m games          # launches the arcade
 <pre>
 ╔══════════════════════════════════════════════════════════╗
 ║ OPERATOR: PERSON F                                       ║
-║ Cyber Engineer · Software Engineer · Systems Admin       ║
+║ Cyber  · Software · Systems                              ║
 ╠══════════════════════════════════════════════════════════╣
-║ STATUS: [ ACTIVE / OPERATIONAL / MISSION-READY ]        ║
+║ STATUS: [ ACTIVE / OPERATIONAL / MISSION-READY ]         ║
 ╚══════════════════════════════════════════════════════════╝
 </pre>
 
@@ -151,9 +151,9 @@ Modern JS front, API routing, Cloudflare, DNS, security-first deploys.
 </td>
 <td width="50%" valign="top">
 
-**🕹️ This Repo — Tested Python**
-A terminal arcade with pure, unit-tested rules engines, plus a 720-line
-dependency-free SVG game generator.
+**🕹️ These Repos - NOT TESTED - Educational guides**
+More forked and supplementary research repositories. 
+Sources are viewed prior, but warning, not all content may be up to date or true.
 
 </td>
 </tr>
