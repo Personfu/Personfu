@@ -317,11 +317,3 @@ Cybersecurity MMORPG for immersive threat simulation.
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Personfu/Personfu/output/github-contribution-grid-snake.svg">
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Personfu/Personfu/output/github-contribution-grid-snake.svg">
 </picture>
-
----
-
-## Operating boundary
-
-This profile is for lawful education, defensive security, authorized testing, public-source intelligence, engineering research, and professional services. Security-tool forks and offensive references are not FLLC products and are not instructions for misuse. Work that touches real systems belongs inside explicit authorization, scoped labs, or private defensive review.
-
-**FLLC / PersonFu — map the surface, verify the source, secure the system.**
