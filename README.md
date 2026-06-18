@@ -39,11 +39,10 @@
 <pre>
 ╔══════════════════════════════════════════════════════════╗
 ║ OPERATOR: PERSON F                                       ║
-║ Cyber Engineer · Software Engineer · Systems Admin       ║
+║ Cyber Engineer · Systems Engineer · Education Enthusiast ║
 ║ Cyber  · Software · Systems                              ║
 ╠══════════════════════════════════════════════════════════╣
-║ STATUS: [ ACTIVE / OPERATIONAL / MISSION-READY ]        ║
-║ STATUS: [ ACTIVE / OPERATIONAL / MISSION-READY ]         ║
+║ STATUS: [ ACTIVE  ]                                      ║
 ╚══════════════════════════════════════════════════════════╝
 </pre>
 
