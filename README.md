@@ -143,15 +143,6 @@ and NIST/CIS-aligned monitoring and incident workflows.
 
 </td>
 </tr>
-<tr>
-<td width="100%" valign="top">
-
-**🌐 FLLC.net — Solo OSINT Platform**
-Shodan / Censys / WiGLE / WHOIS-RDAP / certificate-transparency dashboards.
-Modern JS front, API routing, Cloudflare, DNS, security-first deploys.
-
-</td>
-</tr>
 </table>
 
 <p align="center">
