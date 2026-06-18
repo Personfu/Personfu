@@ -51,7 +51,7 @@
 
 <pre>
 ╔═════════════════════════════════════════╗
-║ LANGUAGES:                              ║
+║ CODE EXPERIENCE:                        ║
 ║ Python | C++ | TypeScript | JavaScript  ║
 ║ Go | Bash | HTML5 | CSS3 | SQL          ║
 ╠═════════════════════════════════════════╣
@@ -65,8 +65,8 @@
 ║ Arduino | KiCad/PCB | Fusion360 | RF    ║
 ╠═════════════════════════════════════════╣
 ║ OSINT:                                  ║
-║ Shodan | Censys | WiGLE | WHOIS/RDAP    ║
-║ Cert Transparency | Wappalyzer          ║
+║ Shodan | xxxx | xxxx | xxxx             ║
+║ xxxx | xxxx                             ║
 ╚═════════════════════════════════════════╝
 </pre>
 
@@ -84,7 +84,7 @@
 <td width="50%" valign="top">
 
 **🛰️ Near-Space Telemetry — NASA ASCEND**
-PCB design, Arduino sensor firmware, and ground-comms software for high-altitude
+PCB design, Arduino sensor firmware, and more software for high-altitude
 balloon missions under the Arizona Space Grant. Embedded data pipelines and
 simulation tooling.
 
@@ -107,7 +107,7 @@ and NIST/CIS-aligned monitoring and incident workflows.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,30,50,255&height=3&section=footer" width="100%" />
 
-## 🖥️ Systems Administration & Homelab
+## 🖥️ Systems Testing & Homelab
 
 
 <table>
@@ -185,47 +185,6 @@ simulation, OSINT discovery, and education.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,30,50,255&height=3&section=footer" width="100%" />
 
-
-## 📌 Featured Repositories
-
-<table>
-<tr>
-<td valign="top" width="33%">
-
-
-[**🛰️ GovINT**](https://github.com/Personfu/GovINT)<br>
-
-
-</td>
-<td valign="top" width="33%">
-
-[**🎮 CyberWorld**](https://github.com/Personfu/CyberWorld)<br>
-Cybersecurity MMORPG for immersive threat simulation.
-
-</td>
-</tr>
-<tr>
-<td valign="top" width="33%">
-
-[**🔭 FURY0s1nt**](https://github.com/Personfu/FURY0s1nt)<br>
-
-
-</td>
-<td valign="top" width="33%">
-
-[**🚀 NASA-ASCEND**](https://pcnasaascend.com)<br>
- Simulation modeling for high-altitude missions.
-
-</td>
-<td valign="top" width="33%">
-
-[**⚠️👁️⚠️**](https://github.com/Personfu/Eternalblue)<br>
-
-
-</td>
-</tr>
-</table>
-
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,30,50,255&height=3&section=footer" width="100%" />
 
 
@@ -250,7 +209,7 @@ Cybersecurity MMORPG for immersive threat simulation.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,30,50,255&height=3&section=footer" width="100%" />
 
-## 🎮 Games Here
+## 🎮
 
 ```bash
 git clone https://github.com/Personfu/Personfu
@@ -264,7 +223,7 @@ python3 -m games          # launches the arcade
 | 🛰️ **THREAT HUNT** | sweep a subnet for planted APT implants | `space` scan · `f` flag · `q` quit | [`games/minesweeper.py`](games/minesweeper.py) |
 
 
-### 🛰️ ...and a tower defense that runs in your README
+### 🛰️ ...and a tower defense.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Personfu/Personfu/main/assets/tower-defense.svg" width="100%" alt="Animated cyberpunk tower-defense simulation" />
