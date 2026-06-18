@@ -12,6 +12,7 @@ This GitHub is an active field lab. Some repositories are production systems. So
 - **GitHub portfolio control plane:** https://fllc.net/github-portfolio
 - **Public reports archive:** https://github.com/Personfu/Reports
 - **Public content roadmap:** [`PUBLIC_CONTENT_ROADMAP.md`](./PUBLIC_CONTENT_ROADMAP.md)
+- **Follower growth operating plan:** [`FOLLOWER_GROWTH_OPERATING_PLAN.md`](./FOLLOWER_GROWTH_OPERATING_PLAN.md)
 - **Premium operations paths:** repository control, source control, execution runbooks, and member intelligence workflows live behind FLLC access.
 
 ---
@@ -39,6 +40,7 @@ These are the lanes I want people to watch, star, and revisit.
 Public, lawful, source-cited OSINT and defensive cybersecurity reports. The name is a play on classification language; the content is public-source, educational, and safe to share.
 
 - Archive: [`Reports`](https://github.com/Personfu/Reports)
+- First drop: [`OPEN-CLASSIFIED-001: KEV Prioritization Template`](https://github.com/Personfu/Reports/blob/main/briefings/OPEN-CLASSIFIED-001_KEV_PRIORITIZATION_TEMPLATE.md)
 - Focus: threat briefs, public-sector source maps, exposure reviews, defensive intelligence summaries, and FLLC field notes.
 
 ### Deep Source Atlas
