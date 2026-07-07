@@ -1,0 +1,62 @@
+# PersonFu profile repository operations manifest
+# Purpose: keep the profile repo useful, auditable, and developer-facing.
+
+profile:
+  owner: Personfu
+  repo: Personfu
+  role: public GitHub profile and operations hub
+  primary_site: https://fllc.net
+  live_projects:
+    - name: FLLC
+      url: https://fllc.net
+      lane: company platform
+    - name: CyberWorld
+      url: https://personfu.github.io/
+      lane: security education game hub
+    - name: GovINT
+      url: https://personfu.github.io/GovINT
+      lane: public-source intelligence dashboard
+    - name: NASA ASCEND
+      url: https://www.pcnasaascend.com/
+      lane: STEM / telemetry / engineering
+
+standards:
+  root_files:
+    keep:
+      - README.md
+      - pyproject.toml
+      - .gitignore
+      - SECURITY.md
+      - CONTRIBUTING.md
+      - LICENSE
+    avoid:
+      - one-off growth plans
+      - duplicate roadmaps
+      - raw drafts
+      - unsupported claims
+      - abandoned generated output
+  public_safety:
+    - no credentials or private keys
+    - no doxxing or personal data dumps
+    - no unauthorized-access walkthroughs
+    - no malware, persistence, evasion, or credential theft content
+    - public-source and defensive framing only
+
+cadence:
+  weekly:
+    - update one useful project artifact
+    - keep README links alive
+    - run repo health checks
+    - move stale planning notes into docs or delete them
+  monthly:
+    - review pinned repositories
+    - archive or privatize stale experiments
+    - publish one source-backed engineering or security log
+
+quality_gate:
+  required_for_public_showcase:
+    - clear README purpose
+    - run or view instructions
+    - screenshot, demo, sample output, or source-backed report
+    - explicit status
+    - FLLC or educational value
