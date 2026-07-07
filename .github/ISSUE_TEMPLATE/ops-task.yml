@@ -1,0 +1,33 @@
+name: Operations task
+description: Track useful profile, repository, automation, or content work.
+title: "[Ops] "
+labels: [ops]
+body:
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: What should improve?
+    validations:
+      required: true
+  - type: dropdown
+    id: lane
+    attributes:
+      label: Lane
+      options:
+        - Profile / GitHub
+        - FLLC platform
+        - CyberWorld / game
+        - GovINT / OSINT
+        - NASA ASCEND / engineering
+        - Security education
+        - Hardware / RF
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Definition of done
+      description: Files, checks, screenshots, links, or outputs that prove completion.
+    validations:
+      required: true
