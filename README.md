@@ -6,8 +6,8 @@
   └─────────────────────────────────────────────────────────┘
 -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&duration=2600&pause=700&color=00EAFF&center=true&vCenter=true&multiline=true&repeat=true&width=1000&height=120&lines=PERSON+F;FLLC+%7C+NASA+ASCEND" />
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=24&pause=1000&center=true&vCenter=true&width=900&lines=Cyber+Engineer+%7C+Offensive+%2B+Defensive;Penetration+Testing+%7C+Red+Team+%7C+SOC;Software+Engineer+%7C+Systems+Admin+%7C+Embedded" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&duration=2600&pause=700&color=00EAFF&center=true&vCenter=true&multiline=true&repeat=true&width=1000&height=120&lines=PERSON+F;FLLC+%7C+NASA+%7C+IT" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=24&pause=1000&center=true&vCenter=true&width=900&lines=Cyber+Security+%7C+Offensive+%2B+Defensive;Penetration+Testing+%7C+Red+Team+%7C+Systems+Admin+%7C" />
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,30,50,255&height=3&section=footer" width="100%" />
 </p>
 
