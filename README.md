@@ -91,7 +91,7 @@ simulation tooling.
 </td>
 <td width="50%" valign="top">
 
-**🛡️ Enterprise SOC — 100k+ Endpoints**
+**🛡️ Enterprise IT — 100k+ Endpoints**
 CrowdStrike, Tanium, Cloudflare, IAM. Vulnerability scanning, asset visibility,
 and NIST/CIS-aligned monitoring and incident workflows.
 
@@ -139,7 +139,7 @@ and NIST/CIS-aligned monitoring and incident workflows.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,30,50,255&height=3&section=footer" width="100%" />
 
-## 🛡️ Cyber Engineer — Offensive **+** Defensive
+## 🛡️ CyberSecurity — Offensive **+** Defensive
 
 <table>
 <tr>
@@ -150,7 +150,7 @@ and NIST/CIS-aligned monitoring and incident workflows.
 </td>
 <td width="50%" valign="top">
 
-**🔵 Defensive / SOC**
+**🔵 Defensive / SysAdmin**
 
 </td>
 </tr>
@@ -223,7 +223,7 @@ python3 -m games          # launches the arcade
 | 🛰️ **THREAT HUNT** | sweep a subnet for planted APT implants | `space` scan · `f` flag · `q` quit | [`games/minesweeper.py`](games/minesweeper.py) |
 
 
-### 🛰️ ...and a tower defense.
+### 🛰️ and tower defense.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Personfu/Personfu/main/assets/tower-defense.svg" width="100%" alt="Animated cyberpunk tower-defense simulation" />
