@@ -180,11 +180,7 @@ simulation, OSINT discovery, and education.
 
 ## 🎮
 
-```bash
-git clone https://github.com/Personfu/Personfu
-cd Personfu
-python3 -m games          # launches the arcade
-```
+
 
 | Game | Theme | Controls | Engine |
 |------|-------|----------|--------|
@@ -223,7 +219,16 @@ python3 -m games          # launches the arcade
 
 <!-- THREAT-HUNT:END -->
 
+
+
+```bash
+git clone https://github.com/Personfu/Personfu
+cd Personfu
+python3 -m games          # launches the arcade
+```
+
 ## 📞 Connect
+
 
 <p align="center">
 <a href="https://fllc.net"><img src="https://img.shields.io/badge/Website-fllc.net-FF00FF?style=for-the-badge&logo=About.me&logoColor=FF00FF&labelColor=000000" /></a>
