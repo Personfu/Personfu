@@ -107,37 +107,6 @@ and NIST/CIS-aligned monitoring and incident workflows.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,30,50,255&height=3&section=footer" width="100%" />
 
-## 🖥️ Systems Testing & Homelab
-
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**Infrastructure**
-
-
-</td>
-<td width="50%" valign="top">
-
-**Engineering**
-
-</td>
-</tr>
-</table>
-
-<p align="center">
-<img src="https://img.shields.io/badge/Linux-Admin-FCC624?style=for-the-badge&logo=linux&logoColor=black&labelColor=050816" />
-<img src="https://img.shields.io/badge/Windows_Server-Admin-0078D6?style=for-the-badge&logo=windows&logoColor=white&labelColor=050816" />
-<img src="https://img.shields.io/badge/Docker-Containers-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=050816" />
-<img src="https://img.shields.io/badge/nginx-Reverse_Proxy-009639?style=for-the-badge&logo=nginx&logoColor=white&labelColor=050816" />
-<img src="https://img.shields.io/badge/MySQL-MariaDB-4479A1?style=for-the-badge&logo=mysql&logoColor=white&labelColor=050816" />
-<img src="https://img.shields.io/badge/Bash-Automation-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white&labelColor=050816" />
-<img src="https://img.shields.io/badge/Cloudflare-DNS%2FCDN-F38020?style=for-the-badge&logo=cloudflare&logoColor=white&labelColor=050816" />
-<img src="https://img.shields.io/badge/Networking-VPN%2FNAT%2FFirewall-8b5cf6?style=for-the-badge&logo=wireshark&logoColor=white&labelColor=050816" />
-</p>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,30,50,255&height=3&section=footer" width="100%" />
 
 ## 🛡️ CyberSecurity — Offensive **+** Defensive
 
