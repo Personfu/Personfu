@@ -7,7 +7,7 @@
 -->
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&duration=2600&pause=700&color=00EAFF&center=true&vCenter=true&multiline=true&repeat=true&width=1000&height=120&lines=PERSON+F;FLLC+%7C+NASA+%7C+IT" />
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=24&pause=1000&center=true&vCenter=true&width=900&lines=Cyber+Security+%7C+Offensive+%2B+Defensive;Penetration+Testing+%7C+Red+Team+%7C+Systems+Admin+%7C" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=24&pause=1000&center=true&vCenter=true&width=900&lines=FLLC+%7C+World+Monitoring+%7C+Software+Engineering;Defensive+Security+%7C+Systems+%7C+Education" />
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,30,50,255&height=3&section=footer" width="100%" />
 </p>
 
@@ -65,8 +65,8 @@
 ║ Arduino | KiCad/PCB | Fusion360 | RF    ║
 ╠═════════════════════════════════════════╣
 ║ OSINT:                                  ║
-║ Shodan | xxxx | xxxx | xxxx             ║
-║ xxxx | xxxx                             ║
+║ Shodan | Censys | Nmap | Wireshark      ║
+║ Source validation | Geospatial research  ║
 ╚═════════════════════════════════════════╝
 </pre>
 
@@ -107,6 +107,25 @@ and NIST/CIS-aligned monitoring and incident workflows.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,30,50,255&height=3&section=footer" width="100%" />
 
+## 🌐 FLLC Platform
+
+FLLC connects public-source world monitoring, current reporting, defensive security, field operations, engineering, and education. Every live panel labels its source, freshness, and coverage limits.
+
+| Product | What it does | Open |
+|---|---|---|
+| **Live World** | Planetary globe for aircraft, satellites, hazards, public cameras, airports, cities, and sourced events | [Launch SkyOps](https://fllc.net/skyops) |
+| **World Monitor** | Search countries, territories, subdivisions, and major cities with linked reporting and official alerts | [Open World Monitor](https://fllc.net/worldmonitor) |
+| **FieldOps** | Incident command, synthetic care handoff, authorized evidence intake, audit history, and defensive remediation | [Open FieldOps](https://fllc.net/field-ops) |
+| **Solutions** | Healthcare, first responder, government, legal, enterprise, and defensive-security product paths | [Explore Solutions](https://fllc.net/solutions) |
+| **Source Standards** | Provenance, freshness, limitations, and responsible-use rules for the platform | [Review Trust](https://fllc.net/trust) |
+
+<p align="center">
+<a href="https://github.com/Personfu/FurulieLLC"><img src="https://img.shields.io/badge/Source-FurulieLLC-00eaff?style=for-the-badge&logo=github&logoColor=white&labelColor=050816" /></a>
+<a href="https://fllc.net/status"><img src="https://img.shields.io/badge/System-Status-45e896?style=for-the-badge&logo=vercel&logoColor=white&labelColor=050816" /></a>
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,30,50,255&height=3&section=footer" width="100%" />
+
 
 ## 🛡️ CyberSecurity — Offensive **+** Defensive
 
@@ -114,12 +133,16 @@ and NIST/CIS-aligned monitoring and incident workflows.
 <tr>
 <td width="50%" valign="top">
 
-**🔴 Offensive / Pentest**
+**🔴 Authorized Security Validation**
+
+Scoped labs, CTFs, bug-bounty research, attack-path review, and remediation verification in systems I own or have permission to test.
 
 </td>
 <td width="50%" valign="top">
 
-**🔵 Defensive / SysAdmin**
+**🔵 Defensive Engineering**
+
+Detection, vulnerability management, asset visibility, incident response, hardening, source validation, and NIST/CIS-aligned operational workflows.
 
 </td>
 </tr>
@@ -137,7 +160,7 @@ and NIST/CIS-aligned monitoring and incident workflows.
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2200&pause=900&color=00EAFF&center=true&vCenter=true&width=900&lines=%5BACTIVE%5D+Bug+Bounty+Squasher;%5BACTIVE%5D+Threat+Detection+%26+Response+Systems;%5BACTIVE%5D+Enterprise+SOC+Operations;%5BACTIVE%5D+Penetration+Testing+%26+Vulnerability+Assessment;%5BACTIVE%5D+Bug+Bounties%2C+CTF%2C+and+Hackathons" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2200&pause=900&color=00EAFF&center=true&vCenter=true&width=900&lines=%5BACTIVE%5D+Bug+Bounty+Squasher;%5BACTIVE%5D+Threat+Detection+%26+Response+Systems;%5BACTIVE%5D+Enterprise+SOC+Operations;%5BACTIVE%5D+Authorized+Security+Validation+%26+Remediation;%5BACTIVE%5D+Bug+Bounties%2C+CTF%2C+and+Hackathons" />
 
 </div>
 
