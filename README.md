@@ -27,8 +27,6 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,30,50,255&height=3&section=footer" width="100%" />
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,30,50,255&height=3&section=footer" width="100%" />
-
 ## 🛰️ Operator File
 
 <div align="center">
@@ -115,6 +113,8 @@ FLLC connects public-source world monitoring, current reporting, defensive secur
 |---|---|---|
 | **Live World** | Planetary globe for aircraft, satellites, hazards, public cameras, airports, cities, and sourced events | [Launch SkyOps](https://fllc.net/skyops) |
 | **World Monitor** | Search countries, territories, subdivisions, and major cities with linked reporting and official alerts | [Open World Monitor](https://fllc.net/worldmonitor) |
+| **Maritime Monitor** | Inspect source-qualified AIS observations, world ports, maritime cameras, vessel classes, and provider coverage | [Open Maritime Monitor](https://fllc.net/maritime) |
+| **MedOS** | Evaluate tap-and-resume clinical workflow, role-adaptive chart views, FHIR integration, migration validation, and downtime continuity | [Open MedOS](https://fllc.net/medos) |
 | **FieldOps** | Incident command, synthetic care handoff, authorized evidence intake, audit history, and defensive remediation | [Open FieldOps](https://fllc.net/field-ops) |
 | **Solutions** | Healthcare, first responder, government, legal, enterprise, and defensive-security product paths | [Explore Solutions](https://fllc.net/solutions) |
 | **Source Standards** | Provenance, freshness, limitations, and responsible-use rules for the platform | [Review Trust](https://fllc.net/trust) |
@@ -127,7 +127,7 @@ FLLC connects public-source world monitoring, current reporting, defensive secur
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,30,50,255&height=3&section=footer" width="100%" />
 
 
-## 🛡️ CyberSecurity — Offensive **+** Defensive
+## 🛡️ Authorized Security Engineering
 
 <table>
 <tr>
