@@ -182,14 +182,6 @@ simulation, OSINT discovery, and education.
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Personfu&hide_border=true&background=050816&stroke=00eaff&ring=ff00ff&fire=ff00ff&currStreakLabel=00eaff" />
 </p>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Personfu&theme=algolia&no-frame=true&column=7&margin-w=5" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Personfu&bg_color=050816&color=00eaff&line=ff00ff&point=ffffff&area=true&hide_border=true" width="100%" />
-</p>
-
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,30,50,255&height=3&section=footer" width="100%" />
 
 ## 🎮
