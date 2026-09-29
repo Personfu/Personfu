@@ -39,6 +39,7 @@
 ║ OPERATOR: PERSON F                                       ║
 ║ Cyber Engineer · Systems Engineer · Education Enthusiast ║
 ║ Cyber  · Software · Systems                              ║
+║ Cyber Security IT                                        ║
 ╠══════════════════════════════════════════════════════════╣
 ║ STATUS: [ ACTIVE  ]                                      ║
 ╚══════════════════════════════════════════════════════════╝
@@ -60,11 +61,11 @@
 ╠═════════════════════════════════════════╣
 ║ CLOUD & EMBEDDED:                       ║
 ║ AWS | Azure | Cloudflare | CI/CD        ║
-║ Arduino | KiCad/PCB | Fusion360 | RF    ║
+║ Arduino | KiCad/PCB | AutoCAD/Modeling  ║
 ╠═════════════════════════════════════════╣
 ║ OSINT:                                  ║
-║ Shodan | Censys | Nmap | Wireshark      ║
-║ Source validation | Geospatial research  ║
+║ Shodan | Censys | Nmap | Wireshark | RF ║
+║ Source validation | Geospatial research ║
 ╚═════════════════════════════════════════╝
 </pre>
 
