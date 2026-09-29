@@ -118,27 +118,6 @@ FLLC connects public-source world monitoring, current reporting, defensive secur
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,30,50,255&height=3&section=footer" width="100%" />
 
 
-## 🛡️ Authorized Security Engineering
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**🔴 Authorized Security Validation**
-
-Scoped labs, CTFs, bug-bounty research, attack-path review, and remediation verification in systems I own or have permission to test.
-
-</td>
-<td width="50%" valign="top">
-
-**🔵 Defensive Engineering**
-
-Detection, vulnerability management, asset visibility, incident response, hardening, source validation, and NIST/CIS-aligned operational workflows.
-
-</td>
-</tr>
-</table>
-
 <p align="center">
 <img src="https://img.shields.io/badge/Red_Team-Offensive_Security-ff3333?style=for-the-badge&logo=hackthebox&logoColor=white&labelColor=050816" />
 <img src="https://img.shields.io/badge/Blue_Team-Defensive_SOC-00aaff?style=for-the-badge&logo=cylance&logoColor=white&labelColor=050816" />
@@ -157,20 +136,6 @@ Detection, vulnerability management, asset visibility, incident response, harden
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,30,50,255&height=3&section=footer" width="100%" />
 
-## 🎮 CyberWorld MMORPG
-
-**CyberWorld** is a cybersecurity MMORPG — the FLLC project for immersive threat
-simulation, OSINT discovery, and education.
-
-<p align="center">
-<a href="https://personfu.github.io/"><img src="https://img.shields.io/badge/PLAY-CyberWorld_MMORPG-00e8ff?style=for-the-badge&logo=steam&labelColor=050a0f" /></a>
-</p>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,30,50,255&height=3&section=footer" width="100%" />
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,30,50,255&height=3&section=footer" width="100%" />
-
-
 ## 📊 GitHub Stats
 
 <p align="center">
@@ -184,8 +149,53 @@ simulation, OSINT discovery, and education.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,30,50,255&height=3&section=footer" width="100%" />
 
-## 🎮
+## 📡 Contribution History
 
+<p align="center">
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Personfu&theme=github_dark&bg_color=050816&title_color=00eaff&text_color=c9d1d9&icon_color=ff00ff&chart_color=8b5cf6"
+    width="100%"
+    alt="PersonFu GitHub contribution history"
+  />
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,30,50,255&height=3&section=footer" width="100%" />
+
+
+📅 Year in Code
+<div align="center">
+
+┌─ // CONTRIBUTION TELEMETRY // ────────────────────────────────┐
+│ WINDOW : ROLLING YEAR                                        │
+│ SOURCE : GITHUB CONTRIBUTIONS                                │
+│ NODE   : PERSONFU                                            │
+└───────────────────────────────────────────────────────────────┘
+<img
+  src="https://ghchart.rshah.org/00eaff/Personfu"
+  width="100%"
+  alt="PersonFu rolling year GitHub contribution calendar"
+/>
+</div>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/365_DAY_ACTIVITY-LIVE-00eaff?style=for-the-badge&logo=github&logoColor=white&labelColor=050816" />
+  <img src="https://img.shields.io/badge/BUILD_SHIP_RESEARCH-REPEAT-ff00ff?style=for-the-badge&labelColor=050816" />
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,30,50,255&height=3&section=footer" width="100%" />
+
+
+## 🎮 CyberWorld MMORPG
+
+**CyberWorld** is a cybersecurity MMORPG — the FLLC project for immersive threat
+simulation, OSINT discovery, and education.
+
+<p align="center">
+<a href="https://personfu.github.io/"><img src="https://img.shields.io/badge/PLAY-CyberWorld_MMORPG-00e8ff?style=for-the-badge&logo=steam&labelColor=050a0f" /></a>
+</p>
+
+
+## 🎮
 
 
 | Game | Theme | Controls | Engine |
@@ -225,16 +235,11 @@ simulation, OSINT discovery, and education.
 
 <!-- THREAT-HUNT:END -->
 
-
-
-```bash
 git clone https://github.com/Personfu/Personfu
 cd Personfu
 python3 -m games          # launches the arcade
-```
 
 ## 📞 Connect
-
 
 <p align="center">
 <a href="https://fllc.net"><img src="https://img.shields.io/badge/Website-fllc.net-FF00FF?style=for-the-badge&logo=About.me&logoColor=FF00FF&labelColor=000000" /></a>
