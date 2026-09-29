@@ -110,16 +110,6 @@ and NIST/CIS-aligned monitoring and incident workflows.
 
 FLLC connects public-source world monitoring, current reporting, defensive security, field operations, engineering, and education. Every live panel labels its source, freshness, and coverage limits.
 
-| Product | What it does | Open |
-|---|---|---|
-| **Live World** | Planetary globe for aircraft, satellites, hazards, public cameras, airports, cities, and sourced events | [Launch SkyOps](https://fllc.net/skyops) |
-| **World Monitor** | Search countries, territories, subdivisions, and major cities with linked reporting and official alerts | [Open World Monitor](https://fllc.net/worldmonitor) |
-| **Maritime Monitor** | Inspect source-qualified AIS observations, world ports, maritime cameras, vessel classes, and provider coverage | [Open Maritime Monitor](https://fllc.net/maritime) |
-| **MedOS** | Evaluate tap-and-resume clinical workflow, role-adaptive chart views, FHIR integration, migration validation, and downtime continuity | [Open MedOS](https://fllc.net/medos) |
-| **FieldOps** | Incident command, synthetic care handoff, authorized evidence intake, audit history, and defensive remediation | [Open FieldOps](https://fllc.net/field-ops) |
-| **Solutions** | Healthcare, first responder, government, legal, enterprise, and defensive-security product paths | [Explore Solutions](https://fllc.net/solutions) |
-| **Source Standards** | Provenance, freshness, limitations, and responsible-use rules for the platform | [Review Trust](https://fllc.net/trust) |
-
 <p align="center">
 <a href="https://github.com/Personfu/FurulieLLC"><img src="https://img.shields.io/badge/Source-FurulieLLC-00eaff?style=for-the-badge&logo=github&logoColor=white&labelColor=050816" /></a>
 <a href="https://fllc.net/status"><img src="https://img.shields.io/badge/System-Status-45e896?style=for-the-badge&logo=vercel&logoColor=white&labelColor=050816" /></a>
