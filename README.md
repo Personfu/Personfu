@@ -169,15 +169,8 @@ FLLC connects public-source world monitoring, current reporting, defensive secur
   width="100%"
   alt="PersonFu rolling year GitHub contribution calendar"
 />
-</div>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/365_DAY_ACTIVITY-LIVE-00eaff?style=for-the-badge&logo=github&logoColor=white&labelColor=050816" />
-  <img src="https://img.shields.io/badge/BUILD_SHIP_RESEARCH-REPEAT-ff00ff?style=for-the-badge&labelColor=050816" />
-</p>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2,30,50,255&height=3&section=footer" width="100%" />
-
 
 ## 🎮 CyberWorld MMORPG
 
