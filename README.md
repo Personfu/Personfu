@@ -163,13 +163,7 @@ FLLC connects public-source world monitoring, current reporting, defensive secur
 
 
 📅 Year in Code
-<div align="center">
 
-┌─ // CONTRIBUTION TELEMETRY // ────────────────────────────────┐
-│ WINDOW : ROLLING YEAR                                        │
-│ SOURCE : GITHUB CONTRIBUTIONS                                │
-│ NODE   : PERSONFU                                            │
-└───────────────────────────────────────────────────────────────┘
 <img
   src="https://ghchart.rshah.org/00eaff/Personfu"
   width="100%"
