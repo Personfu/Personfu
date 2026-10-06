@@ -37,6 +37,7 @@ def issue_url(owner: str, repo: str, action: str, label: str = "") -> str:
 
 
 def _cell_md(game: ThreatHunt, x: int, y: int, owner: str, repo: str) -> str:
+    label = cell_to_label(x, y)
     over = game.status is not Status.HUNTING
     if (x, y) in game.scanned:
         if (x, y) in game.implants:
@@ -47,7 +48,9 @@ def _cell_md(game: ThreatHunt, x: int, y: int, owner: str, repo: str) -> str:
             return IMPLANT
         return FLAG if (x, y) in game.flagged else HIDDEN
     glyph = FLAG if (x, y) in game.flagged else HIDDEN
-    return f"[{glyph}]({issue_url(owner, repo, 'scan', cell_to_label(x, y))})"
+    # Coordinates make adjacent icon links distinguishable to keyboard and
+    # screen-reader users, while keeping the table compact for sighted players.
+    return f"[{glyph} {label}]({issue_url(owner, repo, 'scan', label)})"
 
 
 def status_line(game: ThreatHunt) -> str:

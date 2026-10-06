@@ -1,0 +1,45 @@
+name: refresh profile catalogs
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 15 * * 1"
+
+permissions:
+  contents: write
+
+concurrency:
+  # Threat Hunt also commits README.md. Keep every README writer in one queue
+  # so simultaneous runs cannot race and reject one another's push.
+  group: profile-readme-writers
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh public repositories and stars
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_profile_catalogs.py
+
+      - name: Validate generated profile
+        run: python scripts/repo_health.py
+
+      - name: Commit catalog changes
+        run: |
+          git config user.name "profile-catalog-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md docs/REPOSITORIES.md docs/STARRED.md
+          if git diff --cached --quiet; then
+            echo "Catalogs already current."
+          else
+            git commit -m "docs: refresh public profile catalogs"
+            git push
+          fi

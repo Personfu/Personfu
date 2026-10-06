@@ -13,7 +13,9 @@ permissions:
 
 # Serialize moves so concurrent players don't clobber the board / each other.
 concurrency:
-  group: threat-hunt
+  # The catalog refresher also commits README.md. Serialize both writers so a
+  # scheduled refresh cannot race a player's move.
+  group: profile-readme-writers
   cancel-in-progress: false
 
 jobs:

@@ -6,6 +6,10 @@ profile:
   repo: Personfu
   role: public GitHub profile and operations hub
   primary_site: https://fllc.net
+  navigation:
+    repositories: docs/REPOSITORIES.md
+    starred_research: docs/STARRED.md
+    canonical_stars: https://github.com/Personfu?tab=stars
   live_projects:
     - name: FLLC
       url: https://fllc.net
@@ -46,6 +50,7 @@ cadence:
   weekly:
     - update one useful project artifact
     - keep README links alive
+    - refresh public repository and stars catalogs
     - run repo health checks
     - move stale planning notes into docs or delete them
   monthly:
