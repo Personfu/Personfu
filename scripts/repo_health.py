@@ -15,6 +15,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 README = ROOT / "README.md"
 MANIFEST = ROOT / "ops" / "repo_manifest.yml"
+REPOSITORY_CATALOG = ROOT / "docs" / "REPOSITORIES.md"
+STARRED_CATALOG = ROOT / "docs" / "STARRED.md"
 
 BLOCKED_ROOT_PATTERNS = (
     "ROADMAP",
@@ -29,6 +31,8 @@ REQUIRED_README_PATTERNS = {
     "CyberWorld": r"CyberWorld",
     "NASA ASCEND": r"NASA\s+ASCEND",
     "GitHub stats": r"GitHub\s+Stats",
+    "profile catalog markers": r"PROFILE-CATALOG:START[\s\S]+PROFILE-CATALOG:END",
+    "stars navigation": r"https://github\.com/Personfu\?tab=stars",
 }
 
 SENSITIVE_PATTERNS = {
@@ -63,7 +67,58 @@ def check_readme() -> None:
     for label, pattern in REQUIRED_README_PATTERNS.items():
         if not re.search(pattern, text, flags=re.IGNORECASE):
             fail(f"README missing expected profile signal: {label}")
+    if text.count("<details>") != text.count("</details>"):
+        fail("README has unbalanced details elements")
     ok("README profile signals present")
+
+
+def check_catalogs() -> None:
+    repositories = read_text(REPOSITORY_CATALOG)
+    stars = read_text(STARRED_CATALOG)
+    if "# Public repository map" not in repositories:
+        fail("repository catalog is missing its heading")
+    if "# Starred research library" not in stars:
+        fail("starred catalog is missing its heading")
+    if "not endorsements" not in stars:
+        fail("starred catalog is missing the bookmark disclaimer")
+
+    repository_count = re.search(
+        r"- \*\*(\d+)\*\* public repositor(?:y|ies)", repositories
+    )
+    repository_links = re.findall(
+        r"^- \[[^]]+\]\((https://github\.com/[^/)]+/[^/)]+)\)",
+        repositories,
+        flags=re.MULTILINE,
+    )
+    if not repository_count or int(repository_count.group(1)) != len(repository_links):
+        fail("repository catalog entry count does not match its snapshot")
+    if len(repository_links) != len(set(repository_links)):
+        fail("repository catalog contains duplicate entries")
+
+    if "## Complete catalog" not in stars:
+        fail("starred catalog is missing its complete-catalog section")
+    complete_stars = stars.split("## Complete catalog", 1)[1]
+    star_count = re.search(
+        r"- \*\*(\d+)\*\* publicly retrievable starred repositor(?:y|ies)", stars
+    )
+    star_links = re.findall(
+        r"^- \[[^]]+\]\((https://github\.com/[^/)]+/[^/)]+)\)",
+        complete_stars,
+        flags=re.MULTILINE,
+    )
+    if not star_count or int(star_count.group(1)) != len(star_links):
+        fail("starred catalog entry count does not match its snapshot")
+    if len(star_links) != len(set(star_links)):
+        fail("starred catalog contains duplicate entries")
+
+    for label, catalog in (("repository", repositories), ("starred", stars)):
+        for line in catalog.splitlines():
+            if not line.startswith("- [") or " — " not in line:
+                continue
+            description = line.split(" — ", 1)[1].lower()
+            if "](" in description or "<a" in description or "<img" in description:
+                fail(f"{label} catalog description contains injected markup")
+    ok("public profile catalogs present")
 
 
 def check_manifest() -> None:
@@ -113,6 +168,7 @@ def check_sensitive_strings() -> None:
 
 def main() -> int:
     check_readme()
+    check_catalogs()
     check_manifest()
     check_root_sprawl()
     check_sensitive_strings()

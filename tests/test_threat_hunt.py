@@ -7,6 +7,7 @@ from games.web.engine import (
     cell_to_label,
     label_to_cell,
 )
+from games.web.render import render_block
 
 
 def fresh(seed: int = 7) -> ThreatHunt:
@@ -96,3 +97,10 @@ def test_no_moves_after_game_over():
     g.scan(0, 0)
     g.flag(0, 0)
     assert g.to_dict() == before
+
+
+def test_playable_cells_have_distinct_coordinate_labels():
+    board = render_block(fresh(), "Personfu", "Personfu")
+    assert "[🟦 A1](" in board
+    assert "[🟦 B1](" in board
+    assert "title=ops%3A+scan+A1" in board
