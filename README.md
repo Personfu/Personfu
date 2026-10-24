@@ -37,7 +37,6 @@
 <pre>
 ╔══════════════════════════════════════════════════════════╗
 ║ OPERATOR: PERSON F                                       ║
-║ Cyber Engineer · Systems Engineer · Education Enthusiast ║
 ║ Cyber  · Software · Systems                              ║
 ║ Cyber Security IT                                        ║
 ╠══════════════════════════════════════════════════════════╣
